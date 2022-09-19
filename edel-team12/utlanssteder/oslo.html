@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Utlånssted Oslo | Edel</title>
+	<link rel="preload" href="/edel-team12/fonts/Roboto.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/edel-team12/fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/edel-team12/fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="/edel-team12/css/style.css">
+	<link rel="icon" href="/edel-team12/favicon.svg">
+	<script defer src="/edel-team12/js/app.js"></script>
+</head>
+<body>
+	<script>
+		// This script is inline to ensure the correct theme is set before first paint
+		document.documentElement.className = localStorage.theme ||
+		(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+	</script>
+	<header class="document-header">
+		<div class="container">
+			<a class="logo" href="/edel-team12/">edel</a>
+			<button class="burger" aria-label="Show Menu">
+				<span class="line"></span>
+			</button>
+			<nav class="main-nav">
+				<ul class="main-menu">
+					<li class="menu-container">
+						<button type="button" class="menu-toggle">Utlånssteder</button>
+						<ul class="dropdown">
+							<li class="link-container"><a class="link" href="/edel-team12/utlanssteder/oslo.html">Oslo</a></li>
+							<li class="link-container"><a class="link" href="/edel-team12/utlanssteder/bergen.html">Bergen</a></li>
+						</ul>
+					</li>
+					<li class="menu-container">
+						<button type="button" class="menu-toggle">Kjøretøy</button>
+						<ul class="dropdown">
+							<li class="link-container"><a class="link" href="/edel-team12/kjoretoy/biler.html">Biler</a></li>
+							<li class="link-container"><a class="link" href="/edel-team12/kjoretoy/sykler.html">Sykler</a></li>
+							<li class="link-container"><a class="link" href="/edel-team12/kjoretoy/bater.html">Båter</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="nav-btns">
+				<input type="checkbox" id="theme">
+				<label for="theme"><span></span></label>
+				<a class="btn" href="/edel-team12/bli-medlem.html">Bli medlem</a>
+			</div>
+		</div>
+	</header>
+	<div id="oslo" class="textbox">
+		<h2>Oslo</h2>
+		<p>Velkommen til vårt utleiested ved Bjørvika! Her kan du velge mellom fire biler, en båt og ti sykler.
+		Vi har adresse Nylandsveien 28, som ligger i tre minutters gange fra Operahuset (like ved strandpromenaden).
+		Det er parkering og oppstillingsplasser for kjøretøyene på kaien vår, med tilhørende lademuligheter.
+			
+			</p>
+			<img src="/edel-team12/images/Bjørvika.jpg" alt="Desktop" width="603.2" height="402.4">
+		<h4>Servicetilbud som ligger i umiddelbar nærhet til vårt utleiested i Bjørvika:</h4>
+		
+		
+				<li>Kultur i nærheten:
+					Operahuset,
+					Munch museum,
+					Deichman Bjørvika Oslo Public Library
+					   </li>
+					<li>Hoteller: Clarion Hotell Oslo, Thon Hotell Opera
+						</li>
+						<li>Much toilet, offentlig toalett:  Edvard Munchs Plass 1</li>
+			<li>Mat:
+				Sukkerbiten servering, MUNCH Deli og Kafè, Spaghetteria, Restaurant Salome, Døgnvill burger Bjørvika, Restaurant Havsmak
+				</li>
+				
+		<li>Offentlig transport:
+
+			Ved å laste ned appen RuterBillett kan en kjøpe  billett som gjelder på buss, T-bane, trikk, båt og tog i hele Oslo og Akershus</li>
+			
+			<p>Aktuelle holdeplasser/stasjoner:</p>
+				
+			<p>- Bjørvika trikkeholdeplass, 4 min gange</p>
+			<p>- Oslo Sentralstasjon, 8 min gange</p>
+			<p>- Munch Bjørvika fergeterminal, 1 min gange</p>
+			
+		<p></p>
+	
+	</div>
+</body>
+</html>
